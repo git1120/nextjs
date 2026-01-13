@@ -13,11 +13,12 @@ export default function Video() {
       <section className="relative z-10 py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="We are ready to help"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="From Afghan Farms to Global Markets"
+            paragraph="Discover how we source, process, and export premium Afghan dry fruits with care, quality control, and international compliance."
             center
             mb="80px"
           />
+
         </div>
         <div className="relative overflow-hidden">
           <div className="-mx-4 flex flex-wrap">
@@ -29,6 +30,7 @@ export default function Video() {
                     alt="video image"
                     className="object-cover"
                     fill
+                    sizes="100vw"
                   />
                   <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center">
                     <button

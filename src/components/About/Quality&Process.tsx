@@ -27,31 +27,34 @@ const AboutSectionTwo = () => {
           <div className="w-full px-4 lg:w-1/2">
             <div className="max-w-[470px]">
               <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white">
+                  Quality Control
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <p className="text-base font-medium leading-relaxed text-body-color">
+                  Each product undergoes careful inspection, cleaning, and grading to meet
+                  international food safety and quality standards.
                 </p>
+
               </div>
               <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white">
+                  Export Compliance
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                <p className="text-base font-medium leading-relaxed text-body-color">
+                  We follow proper export documentation, packaging regulations, and customs
+                  requirements for smooth international trade.
                 </p>
+
               </div>
               <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white">
+                  Trusted Supply Chain
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                <p className="text-base font-medium leading-relaxed text-body-color">
+                  Strong relationships with farmers, processors, and logistics partners ensure
+                  consistency and reliability for every shipment.
                 </p>
+
               </div>
             </div>
           </div>
