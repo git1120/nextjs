@@ -1,11 +1,11 @@
 import { Brand } from "@/types/brand";
 
 const brandsData: Brand[] = [
-  { id: 1, name: "India", href: "#", image: "/images/flags/india.svg", imageLight: "/images/flags/india.svg" },
-  { id: 2, name: "Pakistan", href: "#", image: "/images/flags/pakistan.svg", imageLight: "/images/flags/pakistan.svg" },
-  { id: 3, name: "UAE", href: "#", image: "/images/flags/uae.svg", imageLight: "/images/flags/uae.svg" },
-  { id: 4, name: "Turkey", href: "#", image: "/images/flags/turkey.svg", imageLight: "/images/flags/turkey.svg" },
-  { id: 5, name: "Europe", href: "#", image: "/images/flags/eu.svg", imageLight: "/images/flags/eu.svg" },
+  { id: 1, name: "India", href: "#", image: "/images/dry-fruits/1.webp", imageLight: "/images/dry-fruits/1.webp" },
+  { id: 2, name: "Pakistan", href: "#", image: "/images/dry-fruits/2.webp", imageLight: "/images/dry-fruits/2.webp" },
+  { id: 3, name: "UAE", href: "#", image: "/images/dry-fruits/3.webp", imageLight: "/images/dry-fruits/3.webp" },
+  { id: 4, name: "Turkey", href: "#", image: "/images/dry-fruits/4.webp", imageLight: "/images/dry-fruits/4.webp" },
+  { id: 5, name: "Europe", href: "#", image: "/images/dry-fruits/5.webp", imageLight: "/images/dry-fruits/5.webp" },
 ];
 
 

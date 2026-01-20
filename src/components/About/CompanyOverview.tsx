@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="About Najib Ahmad Exporting Company"
-                paragraph="Najib Ahmad Exporting Company is a trusted Afghan exporter of dry fruits, committed to delivering authentic products from Afghanistan to global markets."
+                title="About Najeeb Ahmad Exporting Company"
+                paragraph="Najeeb Ahmad Exporting Company is a trusted Afghan exporter of dry fruits, committed to delivering authentic products from Afghanistan to global markets."
                 mb="44px"
               />
 

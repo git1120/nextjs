@@ -26,7 +26,7 @@ const testimonialData: Testimonial[] = [
     name: "Food Trading Company",
     designation: "India",
     content:
-      "Najib Ahmad Exporting Company delivers authentic Afghan dry fruits with consistent quality.",
+      "Najeeb Ahmad Exporting Company delivers authentic Afghan dry fruits with consistent quality.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },

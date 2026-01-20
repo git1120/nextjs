@@ -1,9 +1,11 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import FadeIn from "../motion/FadeIn";
 
 const Footer = () => {
   return (
+    <FadeIn delay={0.2}>
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -19,7 +21,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Najib Ahmad Exporting Company is a premium exporter of Afghan dry fruits — raisins, apricots, figs, and nuts delivered worldwide with guaranteed quality.
+                  Najeeb Ahmad Exporting Company is a premium exporter of Afghan dry fruits — raisins, apricots, figs, and nuts delivered worldwide with guaranteed quality.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -184,7 +186,7 @@ const Footer = () => {
           <div className="h-px w-full bg-linear-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              © {new Date().getFullYear()} Najib Ahmad Exporting Company. All rights reserved.
+              © {new Date().getFullYear()} Najeeb Ahmad Exporting Company. All rights reserved.
             </p>
           </div>
         </div>
@@ -379,6 +381,7 @@ const Footer = () => {
           </svg>
         </div>
       </footer>
+    </FadeIn>
   );
 };
 

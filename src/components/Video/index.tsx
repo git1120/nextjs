@@ -4,6 +4,7 @@ import VideoModal from "@/components/video-modal";
 import Image from "next/image";
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
+import FadeIn from "../motion/FadeIn";
 
 export default function Video() {
   const [isOpen, setOpen] = useState(false);
@@ -12,12 +13,14 @@ export default function Video() {
     <>
       <section className="relative z-10 py-16 md:py-20 lg:py-28">
         <div className="container">
-          <SectionTitle
-            title="From Afghan Farms to Global Markets"
-            paragraph="Discover how we source, process, and export premium Afghan dry fruits with care, quality control, and international compliance."
-            center
-            mb="80px"
-          />
+          <FadeIn delay={0.1}>
+            <SectionTitle
+              title="From Afghan Farms to Global Markets"
+              paragraph="Discover how we source, process, and export premium Afghan dry fruits with care, quality control, and international compliance."
+              center
+              mb="80px"
+            />
+          </FadeIn>
 
         </div>
         <div className="relative overflow-hidden">
