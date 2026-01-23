@@ -19,7 +19,7 @@ export default function HeroSection() {
                                 </FadeIn>
                                 <FadeIn delay={0.1}>
                                     <p className="mt-6 max-w-3xl text-center text-lg font-medium leading-relaxed text-body-color md:mt-8 md:text-xl">
-                                        Premium Afghan Dry Fruits & Nuts Supplier | Quality You Can Trust
+                                        A Trusted Supplier of Premium Afghan Dry Fruits, Nuts & Grapes, Backed by Reliable Logistics
                                     </p>
                                 </FadeIn>
                                 <FadeIn delay={0.2}>
