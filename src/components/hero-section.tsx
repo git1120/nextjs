@@ -14,7 +14,7 @@ export default function HeroSection() {
                         <div className="relative  flex-col lg:block">
                             <div className="flex flex-col items-center text-center">
                                 <FadeIn>
-                                    <h1 className="mt-8  text-balance text-4xl font-medium md:text-5xl lg:mt-16 xl:text-6xl">Najeeb Ahmad Exporting Company
+                                    <h1 className="mt-8  text-balance text-4xl font-medium md:text-5xl lg:mt-16 xl:text-6xl">Najeeb Ahmad Group of Companies
                                     </h1>
                                 </FadeIn>
                                 <FadeIn delay={0.1}>
